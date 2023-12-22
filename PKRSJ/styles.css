@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.home .home-image {
+    margin-top: -60px;
+}
+.home .heading{
+    margin-top: 30px;
+}
+.home .heading h2{
+    font-size: 40px;
+}
+.home .heading span{
+    color: #FFB703;
+}
+.home .hcontent{
+    margin-top: -80px;
+    padding: 10px;
+}
+.hcontent p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #5e5e5e;
+}
+.links button{
+    margin-top: 20px;
+    padding:  15px 20px;
+    background: #FFB703;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    transition: all .3s ease-in-out;
+}   
+.work{
+    margin-top: 20px;
+    padding: 50px;
+}
+.work img{
+    width: 300px;
+} */
